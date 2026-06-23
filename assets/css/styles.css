@@ -409,4 +409,3 @@ main{width:min(1180px,calc(100% - 32px));margin:0 auto 48px;display:grid;gap:22p
 .is-hidden {
   display: none;
 }
-}
