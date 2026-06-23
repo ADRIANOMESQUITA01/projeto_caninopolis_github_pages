@@ -113,7 +113,7 @@
       </div>
     </section>
 -->
-<div class="video-start">
+<!--<div class="video-start">
   <button id="playWithSound">▶ Assistir com som</button>
 </div>
 
@@ -137,7 +137,46 @@
     this.parentElement.style.display = "none";
   });
 </script>
+-->
+    <section class="card video-card ornate-frame">
+  <div class="section-title">
+    <h2>Vídeo especial</h2>
+    <p class="video-call">
+      A turminha de Caninópolis preparou uma missão secreta para Rafael e Ester.
+      Toque no botão e descubra a surpresa que vai dar início à festa!
+    </p>
+  </div>
 
+  <div class="video-launch framed-box" id="videoLaunch">
+    <div class="video-launch-paws" aria-hidden="true">🐾 🐶 🎈 🐾</div>
+
+    <button class="canino-play" id="playWithSound" type="button" aria-label="Assistir ao vídeo com som">
+      <span class="play-icon" aria-hidden="true">▶</span>
+      <span class="play-text">
+        <strong>Começar a missão!</strong>
+        <small>Assistir ao vídeo com som</small>
+      </span>
+    </button>
+
+    <p class="video-hint">
+      Os amiguinhos de Caninópolis já estão esperando por você.
+    </p>
+  </div>
+
+  <div class="video-wrapper framed-box is-hidden" id="videoWrapper">
+    <iframe
+      id="videoCaninopolis"
+      width="560"
+      height="315"
+      src=""
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
     <section class="card gallery-card ornate-frame">
       <div class="section-title">
         <h2>Nossos pequenos aventureiros</h2>
