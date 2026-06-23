@@ -78,6 +78,10 @@ body::before{
 .ornate-frame{
   position:relative;
 }
+.gallery-item.wide {
+  grid-column: span 2;
+  min-height: 360px;
+}
 .ornate-frame::after{
   content:"";
   position:absolute;
