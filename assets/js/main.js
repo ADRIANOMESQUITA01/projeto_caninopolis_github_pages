@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.btn.primary');if(b){b.addEventListener('click',()=>{b.style.transform='scale(0.98)';setTimeout(()=>b.style.transform='',160)})}});
