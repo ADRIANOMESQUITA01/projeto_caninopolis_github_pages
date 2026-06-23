@@ -80,7 +80,20 @@ body::before{
 }
 .gallery-item.wide {
   grid-column: span 2;
+}
+.gallery-item.wide {
+  grid-column: span 2;
   min-height: 360px;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 760px) {
+  .gallery-item.wide {
+    grid-column: span 1;
+  }
 }
 .ornate-frame::after{
   content:"";
